@@ -14,3 +14,5 @@ Command to Run the Container: docker run -d -p 5000:5001 flask-app
 Command to run: docker compose -f flask-app-composer.yml up -d
 
 3) Created a cluster and container registry on DigitalOcean using terraform. K8s Version used '1.32.2-do.1' in bengalore region with single node. Connection from local machine is also verified. 
+
+4) In the task 4 we have pushed our image on digitalocean's container regisrty. Created a deployment with one replica and used loadbalancer service to expose the flask app. External Ip: 139.59.50.35, Nodeport: 30506

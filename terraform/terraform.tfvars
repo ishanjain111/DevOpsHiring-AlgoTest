@@ -1,4 +1,4 @@
-do_token      = "*****************************"
+do_token      = "***************"
 cluster_name  = "algotest-assignment-cluster-ig"
 registry_name = "flask-app-algotest-ij"
 region        = "blr1"
